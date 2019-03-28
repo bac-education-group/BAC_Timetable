@@ -1,0 +1,21 @@
+select {
+	height: auto !important;
+}
+.card {
+	max-width: 100%;
+	padding: 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 0;
+}
+.nav-pills .nav-link {
+    font-weight: 600;
+    border: none;
+    color: #333;
+}
+.nav-pills .nav-link:focus {
+	box-shadow: none;
+}
